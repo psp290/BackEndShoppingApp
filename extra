@@ -1,0 +1,93 @@
+Db name : shopping-app
+db password : shopping-123
+
+
+
+Product
+{
+    "name":"Samsung M30",
+    "price":15000,
+    "description":"Samsung mobile with greate feature",
+    "stock":true,
+    "quantity":200,
+    "type":"601110247d256b3bf8777669",
+    "rating":4.5,
+    "brand":"6010ff4dc1a0372a98d88b17"
+}
+
+User
+{
+    "full_name":"Pratik Patil",
+    "username":"psp290",
+    "phone":"8668330047",
+    "email":"psp@mail.com",
+    "password":"pratik",
+    "isActive":true,
+    "role":"admin"
+}
+
+
+npm i jsonwebtoken
+
+
+Cart
+{
+    "userId":"6013968bbb9a8a2ca49e0e1f",
+    "productId":"60111c9db64780292c3b5f3b"
+}
+
+
+
+
+Update quantity
+{
+    "itemId":"60157a341198d441b087128b",
+    "quantity":30
+}
+
+
+
+
+
+// Update Cart
+
+
+remove item 
+
+{
+    "productId":"60111c9db64780292c3b5f3b",
+    "quantity":30
+}
+
+
+
+{
+    "cartId":"60166fd8ca84503bd4e4a7ba",
+    "user":"6013968bbb9a8a2ca49e0e1f",
+    "city":"Shegaon",
+    "address":"Shegaon",
+    "state":"Maharashtra",
+    "country":"India",
+    "pinCode":"444203",
+    "totalAmount":50000,
+    "paymentStatus":"pending",
+    "paymentType":"cod"
+
+
+}
+
+
+
+// Pack , ship ,delivered
+
+{
+    "orderId":"6016c0f805634d305838fd18"
+}
+
+
+
+///   Create favourite api 
+
+
+
+'client_secret':'5264833d84c08bc735c132d251e1f880bb7c0c3d',
